@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div >
  <v-app>
     <v-app toolbar footer>
 
@@ -49,7 +49,7 @@
         <v-toolbar-title>PetShelter</v-toolbar-title>
       </v-toolbar>
 
-      <main>
+      <main id="app">
         <v-container fluid>
           <router-view></router-view>
         </v-container>
@@ -86,6 +86,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  
 }
 </style>
