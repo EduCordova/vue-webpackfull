@@ -5,8 +5,8 @@
 
       <v-navigation-drawer 
       dark
-      temporary
-      
+      persistent
+       overflow
       v-model="drawer"
       enable-resize-watcher
       >
@@ -47,6 +47,10 @@
           <i class="fa fa-bars fa-1x"></i>
         </v-toolbar-side-icon>
         <v-toolbar-title>PetShelter</v-toolbar-title>
+      <v-spacer></v-spacer>
+        <v-btn icon class="white--text">
+          <i class="fa fa-github fa-2x" ></i>
+        </v-btn>
       </v-toolbar>
 
       <main id="app">
